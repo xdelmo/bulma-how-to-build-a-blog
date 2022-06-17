@@ -50,9 +50,10 @@ The newest thing I learnt is:
 ```css
 .grid {
   display: grid;
-  grid-template-columns:
-    [xl-start] 1fr 1.5rem[md-start] minmax(0, 624px)
-    [md-end]1.5rem 1fr [xl-end];
+  grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(
+      0,
+      624px
+    ) [md-end] 1.5rem 1fr [xl-end];
 }
 
 .grid * {
